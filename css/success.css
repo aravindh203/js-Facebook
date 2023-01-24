@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #f1f3f4;
+    height: 100vh;
+}
+.facebook{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+button img{
+    width: 50px;
+    height: 50px;
+    rotate: 45deg;
+}
+button{
+    border: none;
+    background-color: white;
+
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.logo{
+    margin: 10px 0px 0px 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.dot-head{
+    position: relative;
+}
+.dot{
+    width: 18px;
+    height: 18px;
+    background-color: #008000db;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+}
+.dot-comment{
+    width: 18px;
+    height: 18px;
+    background-color: #008000db;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 16px;
+    right: 2px;
+}
+#form{
+    display: flex;
+}
+.right{
+    width: 100%;
+}
+h1{
+    color: white;
+    padding: 30px 0px;
+}
+input{
+    height: 50px;
+    width: 600px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color:#f1f3f4;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+.comment-section{
+    display: flex;
+    padding: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.comment-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-icons p{
+    font-size: 16px !important;
+}
+.comment-text{
+    display: inline-block;
+    background-color: #f1f3f4;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+p{
+    display: inline-block;
+    background-color: #f1f3f4;
+    font-size: 25px;
+}
+i{
+    color: black;
+    padding-left: 10px;;
+    font-size: 20px;
+}
